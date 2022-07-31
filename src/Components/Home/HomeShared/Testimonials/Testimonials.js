@@ -43,6 +43,9 @@ const Testimonials = () => {
           </div>
         </div>
         <Swiper
+          style={{
+            "--swiper-pagination-bullet-horizontal-gap": "7px",
+          }}
           spaceBetween={30}
           pagination={{
             clickable: true,
